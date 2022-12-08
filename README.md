@@ -48,7 +48,7 @@ curl http://localhost:4001/api/user/38581407838 | python3 -m json.tool
 <br>
 
 
-### Access the documentation for all methods in the swagger 🥇
+### Access the documentation for all methods in the swagger
 
  http://localhost:4001/api/docs
 <br>
@@ -92,7 +92,7 @@ You will need to install some stuff, if they are not yet installed in your machi
 
 ---
 
-### Install through Github :octocat:
+### Install through Github
 
 Best way to install is to clone it from Github
 <br>
@@ -134,7 +134,7 @@ $ npm start
 
 ---
 
-### Running with Docker 🐳
+### Running with Docker
 
 ```
 $ docker-compose up
@@ -142,7 +142,3 @@ $ docker-compose up
 <br>
 
 
-
-
-## 🔓 Licença 
-MIT © [Erlan Lucio](https://www.linkedin.com/in/erlanlucio/)
