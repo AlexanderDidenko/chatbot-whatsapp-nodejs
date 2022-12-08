@@ -21,7 +21,8 @@ Special thanks for the structure [CAIO](https://github.com/caioagiani)
 The api has nothing to do with the service, the only thing it does is to communicate with the postgres database, I decided to post it too.
 
 ### Create table into Postgres
-![2020-08-15_20-39](https://user-images.githubusercontent.com/67064886/90330120-c3ae2800-df80-11ea-86f3-cf47ae2e362c.png)
+
+/ChatBot-WhatsApp/api
 ```sh
 $ npx knex migrate:latest
 ```
@@ -30,7 +31,8 @@ $ npx knex migrate:latest
 
 
 ### Insert data into Postgres
-![knex-seeds](https://user-images.githubusercontent.com/67064886/90330123-c446be80-df80-11ea-96fb-ee0b8ca42897.png)
+
+/ChatBot-WhatsApp/api
 ```sh
 $ npx knex seed:run
 ```
@@ -39,8 +41,7 @@ $ npx knex seed:run
 
 ### Sample request using CURL in the command line/terminal:
 
-![2020-08-15_20-38](https://user-images.githubusercontent.com/67064886/90330118-c3159180-df80-11ea-9e04-8d3e5c91ef2f.png)
-
+/ChatBot-WhatsApp/api
 ```
 curl http://localhost:4001/api/user/38581407838 | python3 -m json.tool
 ```
@@ -99,13 +100,13 @@ Best way to install is to clone it from Github
 **To clone/download the boilerplate**
 
 ```bash
-$ git clone https://github.com/lucioerlan/rest-to-soap.git
+$ git clone https://github.com/alexander-didenko-71/ChatBot-WhatsApp
 ```
 
 **After cloning**
 
 ```bash
-$ cd rest-to-soap
+$ cd ChatBot-WhatsApp
 ```
 
 **Install all of the projects dependencies with:**
@@ -135,7 +136,6 @@ $ npm start
 
 ### Running with Docker 🐳
 
-![2020-08-15_20-43](https://user-images.githubusercontent.com/67064886/90330124-c446be80-df80-11ea-9638-5fa55949d3d0.png)
 ```
 $ docker-compose up
 ```
