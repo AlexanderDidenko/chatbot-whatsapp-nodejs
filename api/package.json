@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "main": "server.js",
-  "author": "Erlan Lucio",
+  "author": "Alexander Didenko",
   "github": "https://github.com/alexander-didenko-71",
   "scripts": {
     "start": "node server.js",
