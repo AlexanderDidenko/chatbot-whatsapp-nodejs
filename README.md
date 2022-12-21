@@ -1,4 +1,4 @@
-# WhatsApp ChatBot using Node.js © Alexander-Didenko-71
+# WhatsApp ChatBot using Node.js © 71
 
 [![PRETTIER](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://gitter.im/jlongster/prettie)
 [![LICENSE](https://img.shields.io/github/license/arshadkazmi42/awesome-github-init.svg)](https://github.com/arshadkazmi42/awesome-github-init/LICENSE)
